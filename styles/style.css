@@ -82,8 +82,24 @@ main > section{
    font-weight: 300;  
   color: rgba(0, 0, 0, 1); 
 }
-
-
+/* this is banner section */
+/* .text-section, .image-section{
+    width: 50%;
+} */
+ .banner{
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 30px 150px;
+ }
+ .banner-title{
+    font-size: 4.0625rem;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+ }
+ /* .banner-image{
+    width: 100%;
+} */
 
 
 
@@ -98,8 +114,7 @@ main > section{
 /* resposive for small device */
 @media screen and (max-width:576px) {
     /* navbar style */
-    .hide{
-        /* visibility: hidden; */
+    .hide{ 
         display: none;
     }
     .navbar{
@@ -109,5 +124,9 @@ main > section{
     }
     .nav-item{
     margin-right: 1px;
-}
+    }
+    /* banner sectiom */
+    .banner{
+        flex-direction: column-reverse;
+    }
 }
