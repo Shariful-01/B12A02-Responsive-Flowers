@@ -1,0 +1,113 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shared style */
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main > section{
+    margin-top: 120px;
+}
+.text-primary{
+    color: rgba(233, 90, 8, 1);
+}
+.section-tittle{
+    font-size: 3.125rem;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+}
+.section-desceiption{
+    font-size: 1.375rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+.display-flex{
+    display: flex;
+}
+.bg-color{
+    background-color: rgb(245,248,255);
+}
+.button-primary{
+   background-color: #E95A08;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 25px 50px;
+    color: #FFFFFF; 
+}
+/* navbar style */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 30px 150px;
+}
+.nav-right-part{
+    /* max-width: 415px; */
+    /* justify-content:space-between ; */
+}
+.nav-items{
+    list-style: none;
+    text-decoration: none;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 45px;
+}
+.home{
+  font-weight: 700;  
+  color: rgba(0, 0, 0, 1);
+}
+.shop{
+    color:rgba(0, 0, 0, 0.5);;
+}
+.cart{
+   font-weight: 300;  
+  color: rgba(0, 0, 0, 1); 
+}
+
+
+
+
+
+
+
+
+
+.footer-bg-color{
+    background-color: rgb(250,252,255);
+}
+
+/* resposive for small device */
+@media screen and (max-width:576px) {
+    /* navbar style */
+    .hide{
+        /* visibility: hidden; */
+        display: none;
+    }
+    .navbar{
+        /* max-width: 360px; */
+    margin: 65px 15px;
+    align-items: center;
+    }
+    .nav-item{
+    margin-right: 1px;
+}
+}
