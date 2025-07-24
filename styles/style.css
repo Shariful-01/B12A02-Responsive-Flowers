@@ -1,3 +1,13 @@
+/* html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+main {
+  height: 100vh;
+} */
+
+
 /* font style */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -165,17 +175,19 @@ main > section{
     margin-top: 20px;
 }
 /* this is join section */
-.join{
+
+.join{ 
     align-items: center;
-    /* max-width: 1140px; */
-    /* margin: 210px 150px; */
-    margin: 0 auto;
-  text-align: center;
-  padding: 200px 300px;
-  background-image: url('../B12A02-Responsive-Flowers/assets/news-letter-bg.png');
-  background-size: cover;
-  background-position: center
-}
+     /* max-width: 1140px;
+      */ 
+      /* margin: 210px 150px; 
+      */
+       margin: 0 auto;
+        text-align: center;
+         padding: 200px 300px;
+          background-image: url('../B12A02-Responsive-Flowers/assets/news-letter-bg.png');
+           background-size: cover; background-position: center 
+        }
 .join-title{
     color: #FFFFFF;
 }
@@ -197,10 +209,67 @@ main > section{
 
 
 
-
+/* this is footer section  */
 .footer-bg-color{
     background-color: rgb(250,252,255);
 }
+.footer-container{
+    display: grid;
+    grid-template-columns: 1fr .5fr .5fr 1fr;
+    padding: 50px 150px;
+    column-gap: 40px;
+    row-gap: 30px;
+}
+.footer-intro {
+  text-align: left;
+}
+.footer-logo {
+  height: 50px;
+  margin-bottom: 10px;
+}
+.footer-description {
+  font-size: 1.375rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+.footer-links-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+.footer-links li {
+  margin-bottom: 30px;
+}
+.footer-links a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;}
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* resposive for small device */
 @media screen and (max-width:576px) {
@@ -211,6 +280,7 @@ main > section{
     .navbar,
     .banner,
     .flower-lover,
+    
      .plant{
         /* max-width: 360px; */
     margin: 65px 15px;
@@ -272,8 +342,16 @@ main > section{
     width: 200px;
 }
 .section-tittle {
-    font-size: 1.4rem;}
+    font-size: rem;}
+/* footer section  */
+.footer-container{
+    grid-template-columns: repeat(1,1fr);
+    justify-items: start;
+    padding:100px 20px 50px 20px; 
+    row-gap: 5px;
 
-
-
+}
+.footer-bg-color {
+    
+}
 }
