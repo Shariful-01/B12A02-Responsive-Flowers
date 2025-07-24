@@ -93,6 +93,10 @@ main > section{
  .banner-section{
     margin: 0 auto;
  }
+ .hero-text{
+    text-align: left;
+    width: 50%;
+ }
  .banner{
     justify-content: space-between;
     align-items: center;
@@ -144,7 +148,22 @@ main > section{
 .card button{
     width: 100%;
 }
-
+/* this is flower section  */
+.flower-lover{
+    gap: 60px;
+    align-items: center;
+    max-width: 1140px;
+    margin: 210px 150px;
+}
+.flower-lover-text{
+    width: 50%;
+}
+.flower-lover-text{
+    margin: 35px auto;
+}
+.flower-list{
+    margin-top: 20px;
+}
 
 
 
@@ -160,7 +179,10 @@ main > section{
     .hide{ 
         display: none;
     }
-    .navbar, .plant{
+    .navbar,
+    .banner,
+    .flower-lover,
+     .plant{
         /* max-width: 360px; */
     margin: 65px 15px;
     align-items: center;
@@ -172,6 +194,16 @@ main > section{
     .banner{
         flex-direction: column-reverse;
     }
+     .hero-text{
+        width: 100%;
+     }
+     .hero-text-title{
+        width: 50%;
+        /* display: flex;
+        flex-wrap: wrap; */
+     }
+    .banner-image{
+    width: 100%;}
     .card{
         width: 171px;
     }
@@ -180,4 +212,11 @@ main > section{
         row-gap: 30px;
         column-gap: 10px;
     }
+    /* flower lover section  */
+    .flower-lover{
+        flex-direction: column;
+    }
+    .flower-lover-text{
+    width: 100%;
+}
 }
