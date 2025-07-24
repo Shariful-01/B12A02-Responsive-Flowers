@@ -218,5 +218,6 @@ main > section{
     }
     .flower-lover-text{
     width: 100%;
+    text-align: left;
 }
 }
