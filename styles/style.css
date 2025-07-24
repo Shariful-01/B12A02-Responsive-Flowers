@@ -164,7 +164,36 @@ main > section{
 .flower-list{
     margin-top: 20px;
 }
-
+/* this is join section */
+.join{
+    align-items: center;
+    /* max-width: 1140px; */
+    /* margin: 210px 150px; */
+    margin: 0 auto;
+  text-align: center;
+  padding: 200px 300px;
+  background-image: url('../B12A02-Responsive-Flowers/assets/news-letter-bg.png');
+  background-size: cover;
+  background-position: center
+}
+.join-title{
+    color: #FFFFFF;
+}
+.join-grid {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  margin-top: 20px;
+  /* gap: 10px; */
+}
+.join-grid input[type="email"] {
+  padding: 15px 540px 15px 20px;
+  font-size: 1rem;
+  font-weight: 400;
+  border: none;
+  /* width: 630px;
+  height: 50px; */
+  /* border-radius: 5px; */
+}
 
 
 
@@ -220,4 +249,31 @@ main > section{
     width: 100%;
     text-align: left;
 }
+/* join section  */
+.join{
+    padding: 110px 36px 64px;
+}
+.join-grid input[type="email"] {
+  padding: 15px 114px 15px 20px;
+}
+.join-grid {
+  width: 200px;
+  /* grid-template-columns: 1fr; */
+}
+.join-grid input{
+    width: 60px;
+}
+  .join-grid button {
+    width: 150px;
+    padding: 0;
+  }
+.join-title{
+    margin: 0 auto;
+    width: 200px;
+}
+.section-tittle {
+    font-size: 1.4rem;}
+
+
+
 }
