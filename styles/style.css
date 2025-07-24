@@ -224,7 +224,7 @@ main > section{
   text-align: left;
 }
 .footer-logo {
-  height: 50px;
+  /* height: 50px; */
   margin-bottom: 10px;
 }
 .footer-description {
@@ -351,7 +351,5 @@ main > section{
     row-gap: 5px;
 
 }
-.footer-bg-color {
-    
-}
-}
+   
+ }
