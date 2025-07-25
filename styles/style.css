@@ -195,6 +195,7 @@ main > section{
 }
 .latest-deal-description{
   margin-bottom: 100px;
+  /* width: 880; */
 }
 
 .deal-img-title{
@@ -264,9 +265,14 @@ main > section{
       */
        margin: 0 auto;
         text-align: center;
+         /* padding: 200px 300px; */
          padding: 200px 300px;
           background-image: url('../B12A02-Responsive-Flowers/assets/news-letter-bg.png');
            background-size: cover;
+           background-repeat: no-repeat;
+           background-position: center center;
+            /* background-attachment: fixed; */
+            min-height: 100%;
            margin-top: 150px; 
         }
 .join-title{
@@ -424,12 +430,16 @@ main > section{
     width: 60px;
 }
   .join-grid button {
-    width: 150px;
+    width: 100px;
     padding: 0;
   }
 .join-title{
     margin: 0 auto;
     width: 200px;
+}
+.join-grid input[type="email"]{
+  padding: 15px;
+  width: 180px;
 }
 .section-tittle {
     font-size: rem;}
