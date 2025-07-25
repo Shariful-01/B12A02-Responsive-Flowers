@@ -93,7 +93,7 @@ main > section{
     color:rgba(0, 0, 0, 0.5);;
 }
 .cart{
-   font-weight: 300;  
+   font-weight: 400;  
   color: rgba(0, 0, 0, 1); 
 }
 /* this is banner section */
@@ -200,6 +200,7 @@ main > section{
 .latest-deal-description{
   margin-bottom: 100px;
   /* width: 880; */
+  padding: 16px 150px;
 }
 
 .deal-img-title{
@@ -369,6 +370,15 @@ main > section{
     .hide, .badge-img{ 
         display: none;
     }
+    .section-tittle, 
+    .banner-title{
+    font-size: 1.5rem;}
+    .section-desceiption{
+    font-size: 0.875rem;}
+    .join-title{
+        font-size: 1rem;
+    }
+
     .navbar,
     .banner,
     .flower-lover, 
@@ -412,10 +422,20 @@ main > section{
     width: 100%;
     text-align: left;
 }
+
 /* best deal section  */
+.deal-img-title{
+  font-size: 1.25rem;
+}
+.deal-img-description{
+  font-size: 1rem;}
 .deal-img-container{
   display: flex;
   flex-direction: column;
+}
+.latest-deal-description{
+  padding: 16px 25px;
+  margin-bottom: 50px;
 }
 .centered p{
   margin: 0;
