@@ -142,7 +142,7 @@ main > section{
 }
 /* this is flower section  */
 .flower-lover{
-    gap: 60px;
+    gap: 80px;
     align-items: center;
     max-width: 1140px;
     margin: 210px 150px;
@@ -162,8 +162,8 @@ main > section{
 }
 .badge-img {
   position: absolute;
-  top: 1970px;
-  right: 720px;
+  top: 2000px;
+  right: 750px;
   width: 250px;      
   height: auto;
   z-index: 10;
@@ -388,6 +388,7 @@ main > section{
     /* flower lover section  */
     .flower-lover{
         flex-direction: column;
+        gap: 20px;
     }
     .flower-lover-text{
     width: 100%;
